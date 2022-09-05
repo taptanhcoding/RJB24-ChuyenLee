@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import image from './assets'
-import Class from './Class'
+
+import Bt01 from './HomeWork/Session01/Bt01'
 
 let actors =[
   {
@@ -27,28 +27,11 @@ let actors =[
   },
 ]
 
-const colorL = (value) => value.id%2 == 0 ? {color:'red'}:{color:'blue'}
 
 
 function App() {
   return (
-    <div className="App" style={{background:`url(${image.background}) top center / cover no-repeat`}}>
-      <ul className='content row'>
-        {
-          actors.map((actor,index) =>(<li key={index} className='col-4'>
-                <div className="card" style={{width: '18rem'}}>
-                  <img className="card-img-top" src={actor.avatar} alt="Card image cap"/>
-                  <div className="card-body">
-                    <h5 className="card-title" style={colorL(actor)}>{actor.name}</h5>
-                    <p className="card-text">{actor.description}</p>
-                    <a href={actor.link} className="btn btn-primary">More info</a>
-                  </div>
-                </div>
-              </li>) )
-        }
-      </ul>
-      <Class/>
-    </div>
+      <Bt01 actors={actors}/>
   );
 }
 
