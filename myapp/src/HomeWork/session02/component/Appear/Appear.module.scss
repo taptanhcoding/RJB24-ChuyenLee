@@ -1,0 +1,67 @@
+
+.appear {
+    flex:1;
+    height: 100%;
+    background-color: #f6f6f6;
+    border-left:none;
+    position: relative;
+}
+
+.cover {
+    position: absolute;
+    left: 0;
+    top:0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    transform-origin: 0;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.cover p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.percent {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+.primary {
+    background-color: #609bec;
+}
+
+.success {
+    background-color: #51d566;
+}
+
+.danger {
+    background-color: #f75354;
+}
+
+.info {
+    background-color: #31c8dd;
+}
+
+.warning {
+    background-color: #fcd518;
+}
+
+.purple {
+    background-color: #cb79e7;
+}
+
+.pink {
+    background-color: #fe60e8;
+}

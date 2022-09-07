@@ -1,0 +1,37 @@
+.wrapper {
+    display: inline-flex;
+    box-shadow: 3px 3px 2px -1px #ccc;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    flex-direction: column;
+    min-width: 20%;
+}
+.text,.column {
+    height: 100px;
+}
+.text {
+    text-align: center;
+    padding: 10px;
+    & .title {
+        color: #af9b91;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    
+    & .total {
+        font-size: 30px;
+        font-weight: 300;
+        color:#6fcae4;
+        line-height: 1.5;
+    }
+
+    border-bottom: 1px solid #ccc;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+}

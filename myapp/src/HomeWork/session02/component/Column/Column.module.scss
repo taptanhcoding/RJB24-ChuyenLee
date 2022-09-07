@@ -1,0 +1,56 @@
+
+.appear {
+    height: 100%;
+    width: 20px;
+    border-left:none;
+    position: relative;
+    border: 1px solid #f7eef8;
+}
+
+.cover {
+    position: absolute;
+    background-color: #31c8dd;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform-origin: 0 100%;
+}
+
+.cover p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.percent {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+
+
+
+.color-1 {
+    background-color: #51d566;
+}
+
+.color-0 {
+    background-color: #f75354;
+}
+
+.color-3 {
+    background-color: #31c8dd;
+}
+
+.color-2 {
+    background-color: #fcd518;
+}
+
+.color-4 {
+    background-color: #f78153;
+}

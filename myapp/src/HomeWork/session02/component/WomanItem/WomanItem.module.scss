@@ -1,0 +1,41 @@
+.wrapper {
+    padding: 5px 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.name {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.size {
+    margin-bottom: 5px;
+
+}
+
+.price {
+    font-weight: 700;
+}
+
+.line {
+    text-decoration: line-through;
+    color: #ccc;
+    font-weight: 300;
+}
+
+.button {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.button svg {
+    margin-right: 4px;
+}

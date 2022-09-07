@@ -1,0 +1,30 @@
+.wrapper {
+    width: 400px;
+    border: 1px solid #ccc;
+    margin-left: 15px;
+    padding: 10px;
+}
+.img,.content-img {
+    flex: 1;
+
+}
+.img  {
+    width: 100%;
+}
+.content-img {
+    padding: 22px 22px 22px 0;
+
+    & .title-img {
+        color: #000;
+        font-size: 22px;
+    }
+    & .title-1 {
+        font-size: 15px;
+        color: #6c757d;
+        font-weight: 400;
+        & .by {
+            color: #000;
+        }
+    }
+
+}

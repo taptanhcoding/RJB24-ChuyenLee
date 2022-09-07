@@ -1,7 +1,15 @@
 import logo from './logo.svg';
-import './App.css';
 
 import Bt01 from './HomeWork/Session01/Bt01'
+import Bt1 from './HomeWork/session02/Bt1/Bt1';
+import Bt2 from './HomeWork/session02/Bt2/Bt2';
+import ColorExam from './Components/ColorExam';
+import Bt3 from './HomeWork/session02/Bt3/Bt3';
+import ChartBar1 from './HomeWork/session02/ChartBar1/ChartBar1';
+import Profile from './HomeWork/session02/Profile/Profile';
+import SocialBlock from './HomeWork/session02/SocialBlock/SocialBlock';
+import ChartColumn from './HomeWork/session02/ChartColumn/ChartColumn';
+import Womans from './HomeWork/session02/Womans/Womans';
 
 let actors =[
   {
@@ -31,7 +39,18 @@ let actors =[
 
 function App() {
   return (
-      <Bt01 actors={actors}/>
+      <>
+      {/* <Bt01 actors={actors}/> */}
+      {/* <ColorExam/> */}
+      {/* <Bt1/> */}
+      {/* <Bt2 /> */}
+      {/* <Bt3/> */}
+      {/* <ChartBar1 /> */}
+      {/* <Profile /> */}
+      {/* <SocialBlock/> */}
+      {/* <ChartColumn/> */}
+      <Womans />
+      </>
   );
 }
 
