@@ -10,6 +10,7 @@ import Profile from './HomeWork/session02/Profile/Profile';
 import SocialBlock from './HomeWork/session02/SocialBlock/SocialBlock';
 import ChartColumn from './HomeWork/session02/ChartColumn/ChartColumn';
 import Womans from './HomeWork/session02/Womans/Womans';
+import ClassComp from './Components/ClassComp';
 
 let actors =[
   {
@@ -40,8 +41,6 @@ let actors =[
 function App() {
   return (
       <>
-      {/* <Bt01 actors={actors}/> */}
-      {/* <ColorExam/> */}
       {/* <Bt1/> */}
       {/* <Bt2 /> */}
       {/* <Bt3/> */}
@@ -49,7 +48,8 @@ function App() {
       {/* <Profile /> */}
       {/* <SocialBlock/> */}
       {/* <ChartColumn/> */}
-      <Womans />
+      {/* <Womans /> */}
+      <ClassComp />
       </>
   );
 }
