@@ -1,0 +1,18 @@
+.btn-tab {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+}
+
+.content {
+    display: none;
+}
+
+.content.activect {
+    display: block;
+}

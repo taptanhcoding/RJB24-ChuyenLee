@@ -11,6 +11,12 @@ import SocialBlock from './HomeWork/session02/SocialBlock/SocialBlock';
 import ChartColumn from './HomeWork/session02/ChartColumn/ChartColumn';
 import Womans from './HomeWork/session02/Womans/Womans';
 import ClassComp from './Components/ClassComp';
+import LikeBtn from './HomeWork/session03/LikeBtn/LikeBtn';
+import RateBtn from './HomeWork/session03/RateBtn/RateBtn';
+import ImageViewer from './HomeWork/session03/ImageViewer/ImageViewer';
+import Tabs from './HomeWork/session03/Tabs/Tabs';
+import Accordions from './HomeWork/session03/Accordions/Accordions';
+import Gallery from './HomeWork/session03/Gallery/Gallery';
 
 let actors =[
   {
@@ -49,7 +55,14 @@ function App() {
       {/* <SocialBlock/> */}
       {/* <ChartColumn/> */}
       {/* <Womans /> */}
-      <ClassComp />
+      {/* <ClassComp /> */}
+      {/* -Session3-  */}
+      {/* <LikeBtn /> */}
+      {/* <RateBtn/> */}
+      {/* <ImageViewer /> */}
+      {/* <Tabs /> */}
+      {/* <Accordions /> */}
+      <Gallery />
       </>
   );
 }
