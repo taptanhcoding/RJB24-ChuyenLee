@@ -62,7 +62,7 @@ function App() {
       {/* <ImageViewer /> */}
       {/* <Tabs /> */}
       {/* <Accordions /> */}
-      <Gallery />
+      {/* <Gallery /> */}
       </>
   );
 }
