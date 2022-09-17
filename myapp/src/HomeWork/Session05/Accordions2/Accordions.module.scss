@@ -1,0 +1,24 @@
+.padding-0 {
+    padding: 0;
+}
+.title-ac {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #292929;
+}
+
+.description {
+    display: none;
+    padding: 10px;
+}
+
+.activeOne .description {
+    display: block;
+}
+
+.activeOne .title-head {
+    background-color: #47b475;
+    color: #fff;
+}

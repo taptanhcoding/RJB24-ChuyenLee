@@ -1,0 +1,97 @@
+.slide-item {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+.head-title {
+    color: red;
+}
+
+// bao phủ tất cả
+.slide {
+    margin-right: 0;
+    margin-left: 0;
+    border-width: 0.2rem;
+    position: relative;
+}
+
+//css nút next,prevs
+.btn-trans {
+    top:0;
+    bottom: 0;
+    color: #fff;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    opacity: 0.3;
+    z-index: 50;
+}
+
+.btn-trans:hover {
+    opacity: 1;
+}
+
+.btn-next {
+    right: 0;
+}
+
+.btn-prevs {
+    left: 0;
+}
+//css phần img
+.wrapper-slide {
+    width: 940px;
+    overflow: hidden;
+}
+
+.img-list {
+    width: 1200%;
+    transition-duration: 0.6s;
+    
+}
+
+.slide-img {
+    width: 940px;
+    float: left;
+    position: relative;
+    display: block;
+    z-index: 1;
+    transition: all 0.5s ease-in;
+}
+
+.carousel-box.active {
+    background-color: #fff;
+}
+
+// Css thumbnail slide
+.wrapper-slider_img {
+    overflow: hidden;
+}
+
+.wrapper-slider_img .carousel-inner {
+    width: 1200%;
+    transition-duration: 0.6s;
+    transform: translate3d(-3760px, 0px, 0px);
+}
+
+.wrapper-slider_img .slide-img {
+    width: 940px;
+}
+
+.carousel-index {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    list-style: none;
+}
+
+.carousel-index li {
+    opacity: 0.8;
+}
+
+.carousel-index li.active {
+    opacity: 1;
+}
