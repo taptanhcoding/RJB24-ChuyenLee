@@ -29,7 +29,6 @@ import ImageViewer2 from "../HomeWork/Session05/ImageViewer2/ImageViewer2";
 import LikeBtn2 from "../HomeWork/Session05/LikeBtn2/LikeBtn2";
 import RateBtn2 from "../HomeWork/Session05/RateBtn2/RateBtn2";
 import Tabs2 from "../HomeWork/Session05/Tabs2/Tabs2";
-import Form1 from "../HomeWork/Session06/Form1/Form1";
 import Form2 from "../HomeWork/Session06/Form2/Form2";
 import Form3 from "../HomeWork/Session06/Form3/Form3";
 import Form4 from "../HomeWork/Session06/Form4/Form4";
@@ -124,10 +123,7 @@ const children5 = [
 ]
 
 const children6 = [
-    {
-        path: mainPath.session06 + session06Path.form1,
-        element: Form1
-    },
+   
     {
         path: mainPath.session06 + session06Path.form2,
         element: Form2
