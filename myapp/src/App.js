@@ -1,4 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import WebDemo from "./Components/WebDemo";
+import FormSignIn from "./HomeWork/Session07/FormSignIn/FormSignIn";
+import TextToVoice from "./HomeWork/Session07/TextToVoice/TextToVoice";
+import Weather from "./HomeWork/Session07/Weather/Weather";
+import Session08 from "./HomeWork/Session08/Session08";
 import logo from "./logo.svg";
 import Home from "./pages/Home/Home";
 import publicRoutes from "./routes/routes";
@@ -30,25 +35,30 @@ let actors = [
   },
 ];
 
-
-
 function App() {
   return (
     <>
-      <Router>
+      {/* <FormSignIn /> */}
+      {/* <TextToVoice /> */}
+      {/* <Session08 /> */}
+      {/* <Weather /> */}
+      {/* <Weather /> */}
+      {/* <WebDemo /> */}
+      {/* <Router>
         <Routes>
           {publicRoutes.map((route, index) => {
             const Element = route.element;
             return route.children ? (
-              <Route
-                key={index}
-                path={route.path}
-                element={<Element />}
-              >
-                {/* <Route index element={<Element/>}/> */}
-                {route.children.map((child,i) => {
-                  const ChildElement =  child.element
-                  return <Route key={i} path={child.path} element={<ChildElement/>}  />
+              <Route key={index} path={route.path} element={<Element />}>
+                {route.children.map((child, i) => {
+                  const ChildElement = child.element;
+                  return (
+                    <Route
+                      key={i}
+                      path={child.path}
+                      element={<ChildElement />}
+                    />
+                  );
                 })}
               </Route>
             ) : (
@@ -56,7 +66,7 @@ function App() {
             );
           })}
         </Routes>
-      </Router>
+      </Router> */}
     </>
   );
 }
